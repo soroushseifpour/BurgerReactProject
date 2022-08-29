@@ -1,0 +1,34 @@
+.meal-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    border-bottom:1px solid ;
+}
+.meal-item--name{
+    font-size: large;
+    font-weight: bold;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.amount-input--title{
+    width: 50px;
+}
+.button-order{
+text-align: center;
+}
+.input-button{
+    width: 70px;
+    margin: .2rem;
+}
