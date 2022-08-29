@@ -1,0 +1,15 @@
+.meal-summary{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 50%;
+    background: rgb(204, 204, 204);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    margin-top: 1rem;
+}

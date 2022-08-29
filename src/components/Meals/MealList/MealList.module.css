@@ -1,0 +1,12 @@
+.meal-list--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.meal-list{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0;
+}

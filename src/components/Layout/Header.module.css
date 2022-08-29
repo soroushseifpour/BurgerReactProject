@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(94, 5, 5);
+    font-size: large;
+    color: white;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+}
+.restaurant-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background: orangered;
+    padding: .3rem;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

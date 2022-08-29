@@ -1,0 +1,65 @@
+.backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    opacity: .7;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 250px);
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+.itemlist-summary{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    border: 0;
+    
+    overflow-y: scroll;
+}
+.itemlist-summary--item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid;
+    
+}
+.item-name{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.item-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    padding: .5rem;
+}
+.btnAdd{
+    background: chocolate;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0;
+}
+.btnRemove{
+    background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0;
+}
